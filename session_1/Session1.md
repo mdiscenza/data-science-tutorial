@@ -1,6 +1,6 @@
 # Session 1: Intro and Linear Regression 2/17/2018 
 Goals:
-- overview of what we want to do and tools/approach and [objectives](objectives.md)
+- overview of what we want to do and tools/approach and [objectives](../objectives.md)
 - linear regression
 
 #### Linear Regression concepts to understand  
