@@ -1,9 +1,11 @@
 # Session 1: Intro and Linear Regression 2/17/2018 
-Goals:
+
+
+## Goals:
 - overview of what we want to do and tools/approach and [objectives](../objectives.md)
 - linear regression
 
-#### Linear Regression concepts to understand  
+## Linear Regression concepts to understand  
 Linear Regression (linear algebra perspective):
 https://dsgazette.com/2018/01/10/linear-regression-by-hand/
 
@@ -17,11 +19,11 @@ https://onlinecourses.science.psu.edu/stat501/node/382
 - Jupyter Notebook
 - Matplotlib
 
-#### Session 1 Homework:
+## Session 1 Homework:
 
 Go through linear regression lower lever to higher level of abstraction - first the linear algebra, then least squares estimator (ordinary lease squares for minimizimg error terms), and finally SciKitLearn which is the statistics package that most people use in python. You'll both generate your own data (good for sanity checks and demostration) and use datasets that you find elsewhere.
 
-1. Set up Jupyter Notebook
+fg1. Set up Jupyter Notebook
 1. Follow this example for linear regression using numpy only -- just matrix operations - http://anwarruff.com/normal-equation/ This is a toy example where a line can go through all of the points.
 1. With the previous code, set up an example where a line will not perfectly go through all of the points- you'll need to generate another data set for this. 
 1. Now you can use `linalg.lstsq` function to caluate least squares estimator -- this is finding a minium https://glowingpython.blogspot.com/2012/03/linear-regression-with-numpy.html See if you can verify that it's doing the same thing as you were doing in the previous approach
